@@ -11,9 +11,9 @@ In this code, we will allow the program to detect faces and label them according
 
 # Prerequisites:
 LIBRARIES:
-1. open cv
+1. OpenCV
 2. MTCNN
-3. numpy
+3. Numpy
 IDE used: VS code
 
 # References:
@@ -96,3 +96,6 @@ The code displays the name of the person with the highest similarity using the c
 # 7. Displaying the frame:
 
 The code displays the frame with the bounding boxes and the name of the person.
+
+# Conclusion:
+In this code, we have implemented a face recognition system using the MTCNN algorithm and cosine similarity. The MTCNN algorithm is used to detect faces in images and videos, and cosine similarity is used to measure the similarity between the detected faces and the known faces. By comparing the encodings of the detected faces with the encodings of the known faces, we can identify the person with the highest similarity. This code can be used as a starting point for building more advanced face recognition systems.
