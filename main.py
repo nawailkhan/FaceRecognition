@@ -13,7 +13,7 @@ dataset_folder = "C:\\Users\\HP PC\\Desktop\\face detection-PF open ended lab\\d
 
 # Lists to store known faces, names, and encodings
 known_faces = []
-known_names = ['nawail','maryam','hiba']
+known_names = []
 known_encodings = []
 
 # Iterate over subdirectories (each person's folder)
